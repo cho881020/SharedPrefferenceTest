@@ -29,7 +29,6 @@ public class ContextUtil {
         SharedPreferences pref = context.getSharedPreferences(prefName, Context.MODE_PRIVATE);
 
 //        열린 메모장에서 이메일 항목 뽑아서 리턴
-
         return pref.getString(EMAIL, "저장내용없음");
     }
 
